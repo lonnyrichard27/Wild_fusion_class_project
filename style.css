@@ -62,10 +62,10 @@ body{
   left: -125px;
 }
 .acard{
-  border: 1px dotted rgb(119, 116, 116) !important;
+  border: 2px dotted rgb(119, 116, 116) !important;
   border-radius: 15px;
   height: 270px;
-  width: 250px;
+  width: 240px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -84,16 +84,197 @@ body{
 }
 .about{
   padding-top: 200px;
+  padding-bottom: 70px;
   display: flex;
   align-items: center;
-  gap: 1.5rem;
-  justify-content: space-between;
+  gap: 5rem;
+  /* justify-content: center; */
 }
 .pointing-man{
-  width: 500px;
-  height: 500px;
+  width: 700px;
+  height: 700px;
   border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
 }
 .work h4{
   color: gold;
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+.iccon{
+  width: 40px;
+}
+.caad{
+  display: flex;
+  justify-content: center;
+  /* gap: 1rem; */
+  background-color: rgb(208, 208, 211);
+  border-radius: 55px;
+  padding: 0 10px;
+  align-items: center;
+  text-align: center;
+}
+.done{
+  font-size: 10px;
+}
+.point-section{
+  position: relative;
+}
+.btn{
+  position: absolute;
+  top: 280px;
+  left: 10px;
+}
+.work h2{
+  color: white;
+  font-weight: 800;
+  font-size: 35px;
+  max-width: 400px;
+  padding-bottom: 20px;
+}
+.work h5{
+  color: white;
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+.work P{
+  color: rgba(214, 208, 208, 0.597);
+  font-size: 12px;
+  max-width: 300px;
+  padding-bottom: 10px;
+}
+label{
+  color: white;
+}
+.work{
+  margin-left: 100px;
+  margin-top: 130px;
+}
+.insta{
+  position: absolute;
+  top: 230px;
+  left: 650px;
+  color: black;
+  height: 4em;
+  width: 4em;
+  border-radius: 50%;
+  border: 3px solid white;
+  background-color: #ffb901;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bi{
+  font-size: 20px;
+}
+.tweet{
+  position: absolute;
+  top: 600px;
+  left: 120px;
+  color: black;
+  height: 4em;
+  width: 4em;
+  border-radius: 50%;
+  border: 3px solid white;
+  background-color: #417f7a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tired{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.tired h4{
+  font-size: 25px;
+  font-weight: 700;
+}
+.tired p{
+  font-size: 12px;
+}
+.first{
+  background-color: #ffb901;
+  padding: 50px 0;
+  font-weight: 500;
+}
+.second{
+  background-color: #417f7a;
+  padding: 50px 0;
+  font-weight: 500;
+  color: white;
+}
+.third{
+  background-color: #ffb901;
+  padding: 50px 0;
+  font-weight: 500;
+}
+.fourth{
+  background-color: #417f7a;
+  padding: 50px 0;
+  font-weight: 500;
+  color: white;
+}
+.devv{
+  background-color: #fffadc;
+  height: 100%;
+}
+.devv2{
+  display: flex;
+  justify-content: space-between;
+}
+.digital{
+  padding-bottom: 50px;
+}
+
+.loogo{
+  margin-top: 20px;
+  margin-bottom: 2px;
+  background-color: #c8c4ac;
+  padding: 10px 0;
+  width: 170px;
+  
+}
+.loogo span{
+  color: #417f7a;
+  font-weight: 600;
+}
+.loogo p{
+  font-weight: 800;
+  margin: auto;
+  margin-left: 10px;
+}
+.emmail {
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+#email{
+  margin-top: 10px;
+  border: none;
+  background-color: #fffadc;
+}
+
+.form2{
+  width: 400px;
+}
+.form2 hr{
+  max-width: 70%;
+  margin: 0.5rem 0 !important;
+  border: 1px solid black;
+  opacity: 1;
+  
+}
+input::placeholder{
+  font-size: 14px;
+  font-weight: 600;
+  
+}
+#location{
+  margin-top: 10px;
+  border: none;
+  background-color: #fffadc;
+}
+.texxxt{
+  font-weight: 700;
+  margin-top: -15px;
 }
